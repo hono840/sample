@@ -1,0 +1,1 @@
+import{a as r,f as a}from"../chunks/CcG9SExS.js";import"../chunks/sOdF4iJ3.js";import{n as e}from"../chunks/CL54CPdI.js";var p=a('<h1 class="text-2xl font-bold p-8">WebStore</h1> <p class="px-8 text-gray-600 dark:text-gray-400">WebStore ページです。メニューに WebStore セクションが表示されます。</p>',1);function f(t){var o=p();e(2),r(t,o)}export{f as component};
