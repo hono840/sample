@@ -11,6 +11,9 @@ coverage
 # Optional eslint cache
 .eslintcache
 
+.svelte-kit/
+
+
 # dotenv environment variables file
 .env
 .env.test
@@ -24,3 +27,5 @@ coverage
 tmp
 
 benchmarking/compare/.results
+
+settings.local.json

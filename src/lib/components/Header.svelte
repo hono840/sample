@@ -18,7 +18,7 @@
 </script>
 
 <header
-  class="sticky top-0 z-50 flex items-center justify-between h-16 px-4 pr-96 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700"
+  class="sticky top-0 z-50 flex items-center justify-between h-16 px-4 lg:pr-96 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700"
 >
   <!-- ロゴエリア -->
   <div class="flex items-center gap-4">
@@ -66,7 +66,12 @@
     </DropdownMenu.Trigger>
 
     <DropdownMenu.Portal>
-      <DropdownMenu.Content class="z-50 overflow-visible" sideOffset={8} align="end" preventScroll={false}>
+      <DropdownMenu.Content
+        class="z-50 overflow-visible"
+        sideOffset={8}
+        align="end"
+        preventScroll={false}
+      >
         <AccountMenuContent />
       </DropdownMenu.Content>
     </DropdownMenu.Portal>
