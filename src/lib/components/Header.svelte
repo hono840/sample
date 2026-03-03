@@ -66,7 +66,7 @@
     </DropdownMenu.Trigger>
 
     <DropdownMenu.Portal>
-      <DropdownMenu.Content class="z-50 overflow-visible" sideOffset={8} align="end">
+      <DropdownMenu.Content class="z-50 overflow-visible" sideOffset={8} align="end" preventScroll={false}>
         <AccountMenuContent />
       </DropdownMenu.Content>
     </DropdownMenu.Portal>
